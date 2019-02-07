@@ -14,7 +14,6 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/hashicorp/hcl"
 	"github.com/jinzhu/gorm"
-	_ "github.com/jinzhu/gorm/dialects/sqlite"
 	"github.com/spiffe/spire/pkg/common/bundleutil"
 	"github.com/spiffe/spire/pkg/common/idutil"
 	"github.com/spiffe/spire/pkg/common/selector"

@@ -1,3 +1,5 @@
+// +build cgo,!nosqlite
+
 package sql
 
 import (
